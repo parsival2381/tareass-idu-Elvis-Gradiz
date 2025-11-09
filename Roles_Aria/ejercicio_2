@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<style>
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .tab {
+    padding: 8px 15px;
+    background: #ddd;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .tabla-simple {
+    border-collapse: collapse;
+    width: 300px;
+  }
+
+  .tabla-simple th, .tabla-simple td {
+    border: 1px solid #999;
+    padding: 6px;
+    text-align: center;
+  }
+
+  .img-box {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+</style>
+</head>
+<body>
+
+
+<div class="tabs" role="tablist">
+  <div class="tab" role="tab">Información</div>
+  <div class="tab" role="tab">Perfil</div>
+  <div class="tab" role="tab">Ajustes</div>
+</div>
+
+
+<table class="tabla-simple" role="table">
+  <tr>
+    <th>Nombre</th>
+    <th>Edad</th>
+  </tr>
+  <tr>
+    <td>Ana</td>
+    <td>21</td>
+  </tr>
+  <tr>
+    <td>Carlos</td>
+    <td>30</td>
+  </tr>
+</table>
+
+
+<div class="img-box">
+  <img 
+    src="https://m.media-amazon.com/images/I/61vrj1O7fJL._AC_UF350,350_QL80_.jpg"
+    alt="Ejemplo de imagen"
+    role="img"
+    aria-label="Imagen de ejemplo en un recuadro"
+  >
+</div>
+
+</body>
+</html>
