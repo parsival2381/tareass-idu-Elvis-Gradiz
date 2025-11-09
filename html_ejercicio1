@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog - Consejos de Diseño UX</title>
+</head>
+<body>
+    <!--1.se agrego un header un main y un footer para distribuir el codigo y sea accesible
+
+    2. se agrego un label por que solo tenia un comentario y solo tenia un input que decia adentro de la seccion donde el usuario
+    tenia que escribir decia nombre lo cual los lectores de pantalla no leen tambien se puso la etiqueta form
+    para que baya vinvulada con el labelesto ayuda a los lectores pantalla entender la funcion de cada campo
+
+    3. se agrego la funcion alt para decribir el contenido visual de la imagen se quito el div que tenia como referencia
+    
+    4. se agrego a la lista de los tips las listas semanticas <ul> y <li> ya que organizan elementos relacionados facilitando
+        la comprension para los usuarios y mas orden en el codigo para leer
+        
+   5. se agrego las etiquetas <figure> y <figcaption> permiten agregar una descripcion 
+            adicionalque completa el alt de la imagen proporcionando mas contexto
+            
+  6. normalmente los estilos no van en los div asi que los saque y hice un en vez de tener 
+            en letras grandes publicar hice un boton con descripciones  esto ayuda a los usuarios a entender 
+            las acciones que pueden realizar, especialmente con tecnologias asistivas-->
+
+    <!--corregir todos los problemas de accesibilidad-->
+    <div style="background-color: #f0f0f0; padding: 15px;">
+        <div style="font-size: 28px; color: #333;"><h1>Consejos Rápidos para un Mejor Diseño UX</h1></div>
+    </div>
+    
+    <div>
+        <div style="font-size: 20px; margin-top: 20px;">Cómo Mejorar la Usabilidad</div>
+        <div style="font-size: 14px; color: #666; margin-bottom: 10px;">Publicado el 15 de Octubre, 2024</div>
+    </div>
+    <header>
+
+    <main>
+    
+        <div>
+        <figure>
+    
+        <img src="https://addaw.org//cdn/admin/assets/images/galeria/SRypBs4xEP7LUMVzbO1o.jpg" alt="Imagen mostrando uso de imágenes en el diseño." width="600" height="300">
+        <figcaption>El uso de imagenes en el diseno </figcaption>
+
+    </figure>  
+    </div>
+
+
+    <div>
+        <div style="font-size: 16px; margin-top: 15px; line-height: 1.5;">
+            El diseño de experiencia de usuario (UX) es crucial. Aquí compartimos algunos *tips* esenciales:
+        </div>
+
+        <div style="margin-top: 10px;">
+            <ul>
+            <li> <div style="color: green;">✔ **Contraste de Color**</li>
+            <li><div style="color: red;">✘ **Navegación Intuitiva**</li>
+            <li> <div style="color: blue;">▶ **Tamaños de Fuente Legibles**</li>
+            </ul>
+        </div>
+    </div>
+    
+    
+    <form>
+    <div style="margin-top: 30px; background-color: #eee; padding: 15px;">
+        <div style="font-size: 18px;">Deje su Comentario</div>
+        <div>
+            <div style="margin: 10px 0;">
+                <label for="nombre">Nombre </label>
+                <input type="text" name="nombre"/>
+            </div>
+
+            <div style="margin: 10px 0;">
+                <label for="Comentario">comentario aqui</label>
+                <input type="text" name="Comentario">
+            </div>
+
+            <div>
+            <button type="submit" class="button">Publicar</button>
+              
+            </div>
+        </div>
+    </div>
+    </form>
+      <style>
+.button {
+   color: white; background-color: rgb(13, 55, 160);
+    padding: 10px;
+}
+</style>
+
+    </main>
+    
+    <footer>
+    <div style="background-color: #333; color: white; padding: 15px; margin-top: 40px;">
+        <div style="font-size: 12px;">© 2024 Blog de Diseño UX</div>
+        <div><a href="/contacto" style="color: #ffcc00; text-decoration: none;">Contáctanos</a></div>
+    </div>
+ </footer>
+</body>
+</html>
