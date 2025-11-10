@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tarea Cinco</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="ejercicio-4">
+    <div class="ejercicio-4__fila">
+        <div class="ejercicio-4__item ejercicio-4__item1">1</div>
+        <div class="ejercicio-4__item ejercicio-4__item2">2</div>
+        <div class="ejercicio-4__item ejercicio-4__item3">3</div>
+    </div>
+    <div class="ejercicio-4__fila">
+        <div class="ejercicio-4__item ejercicio-4__item4">4</div>
+        <div class="ejercicio-4__item ejercicio-4__item5">5</div>
+    </div>
+</div>
+</body>
+</html>
+</html>
