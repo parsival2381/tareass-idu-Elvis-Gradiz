@@ -1,0 +1,35 @@
+.c-ej3 {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.r-ej3 {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 10px; 
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.fila-inferior {
+   
+    justify-content: flex-start;
+}
+
+.fila-inferior .i-ej3:nth-child(2) {
+    margin-left: 100px; 
+}
+
+
+.i-ej3 {
+    padding: 10px 20px;
+    background-color: #F0F0F0;
+    border: 1px solid #D9D9D9;
+    min-width: 80px; 
+    text-align: center;
+    margin-right: 5px;
+}
