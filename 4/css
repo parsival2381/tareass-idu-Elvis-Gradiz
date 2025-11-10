@@ -1,0 +1,32 @@
+.ejercicio-4 {
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    margin-top: 30px;
+}
+
+.ejercicio-4__fila {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0px; 
+}
+
+.ejercicio-4__item {
+    flex-grow: 1; 
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: #555;
+}
+
+.ejercicio-4__item1 { background-color: #F4D03F; }
+
+.ejercicio-4__item2 { background-color: #EC7063; } 
+
+.ejercicio-4__item3 { background-color: #A9CCE3; } 
+
+.ejercicio-4__item4 { background-color: #D6EAF8; } 
+
+.ejercicio-4__item5 { background-color: #D2B4DE; } 
