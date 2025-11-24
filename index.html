@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          customRed: {
+            150: "#ffcccc",
+            340: "#ff9999",
+            530: "#ff6666",
+            720: "#ff3333",
+            910: "#cc0000",
+          }
+        },
+        spacing: {
+          72: "25rem",
+        },
+        screens: {
+          "apple-watch": "352px",
+        }
+      }
+    }
+  }
+</script>
+
+</head>
+<body class="p-6 space-y-10">
+
+   
+    <section class="space-y-4">
+     
+  <div class="w-full h-20 
+      bg-customRed-150 
+      xs:bg-customRed-340 
+      sm:bg-customRed-530 
+      md:bg-customRed-720 
+      lg:bg-customRed-910 
+      xl:bg-customRed-150"></div>
+
+  
+  <div class="w-full h-20 
+      bg-customRed-340 
+      xs:bg-customRed-530 
+      sm:bg-customRed-720 
+      md:bg-customRed-910 
+      lg:bg-customRed-150 
+      xl:bg-customRed-340"></div>
+
+  
+  <div class="w-full h-20 
+      bg-customRed-530 
+      xs:bg-customRed-720 
+      sm:bg-customRed-910 
+      md:bg-customRed-150 
+      lg:bg-customRed-340 
+      xl:bg-customRed-530"></div>
+
+  
+  <div class="w-full h-20 
+      bg-customRed-720 
+      xs:bg-customRed-910 
+      sm:bg-customRed-150 
+      md:bg-customRed-340 
+      lg:bg-customRed-530 
+      xl:bg-customRed-720"></div>
+
+  
+  <div class="w-full h-20 
+      bg-customRed-910 
+      xs:bg-customRed-150 
+      sm:bg-customRed-340 
+      md:bg-customRed-530 
+      lg:bg-customRed-720 
+      xl:bg-customRed-910"></div>
+    </section>
+
+    
+    <div class="bg-gray-200 h-20 w-72 flex items-center justify-center">
+      Espaciado personalizado 72 (400px)
+    </div>
+
+   
+    <div class="h-20 bg-red-300 apple-watch:bg-green-400 flex items-center justify-center">
+      Breakpoint Apple Watch (352px)
+    </div>
+</body>
+
+
+</html>
